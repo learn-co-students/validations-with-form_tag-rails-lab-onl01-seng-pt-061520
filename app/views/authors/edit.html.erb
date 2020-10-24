@@ -1,5 +1,5 @@
 <h2>Editing <%= @author.name %></h2>
-<%= form_tag authors_path, method: "post" do %>
+<%= form_tag author_path, method: "patch" do %>
   <% if @author.errors.any? %>
     <div id="error_explanation">
       <h2>There were some errors:</h2>
