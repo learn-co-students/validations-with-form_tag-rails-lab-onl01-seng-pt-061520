@@ -4,7 +4,7 @@
     <li>id="error_explanation"><li>
       <h2>There were some errors:</h2>
       <ul> 
-
+  <%end%>
   <div class="field <%= ' field_with_errors' if @author.errors[:name].any? %>
     <%= label_tag "name", "Name" %>
     <%= text_field_tag "name", @author.name %>
